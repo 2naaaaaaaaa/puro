@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'NotoSerifKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+font
+font-family: 'NanumSquareLight';
+font-family: 'NanumSquare';
+font-family: 'NanumSquareBold';
+font-family: 'NanumSquareExtraBold';
+font-family: 'NanumSquareAcb';
+font-family: 'NanumSquareAceb';
+font-family: 'NanumSquareAcl';
+font-family: 'NanumSquareAcr';
+font-family: 'Noto Serif', serif;
+*/
+
+*{margin: 0; padding: 0;}
+ul, ol{list-style: none;}
+a{text-decoration: none; color: inherit;}
+body{font-family: 'NanumSquare';; color: black; font-size: 17px; line-height: 25px; min-width: 1400px; overflow-x: hidden;}
+html{overflow-x: hidden;}
+.clearfix::after{content: ""; clear: both; display: block;}
+
+#header{position: fixed; top: 0; left: 0; width: 100% ; background-color: rgba(255, 255, 255, 0.37); height: 85px; text-align: center; z-index: 9;}
+#header_inner{width: 1332px; margin: 0 auto; color: #6aa6aa; font-family: Javanese Text; font-size: 22px; position: relative;}
+#header_inner ul li{float: left;}
+.nav{width: 1200px; display: inline-block;}
+.nav li{ margin-top: 49px; width: 20%;}
+.nav li:nth-child(3){margin-top: 10px;}
+.top{position: absolute; top: 0; right: 0; margin-top: 10px;}
+.top li:nth-child(2){padding: 0 10px 0 10px}
+.banner{width: 100%;}
+#header_inner .nav>li:hover{color: #109ca7;}
+.solid{width:50%;
+    margin:auto;
+    margin-top:10px;
+    height:1px;
+    background:#109ca7;
+    visibility:hidden;
+    opacity:0;
+    transform:scaleX(0);
+    transition-property:opacity, transform;
+    transition-duration:0.5s;}
+#header_inner>.nav>li>a:hover .solid{transform:scaleX(1);
+                    opacity:1;
+                    visibility:visible;}	
+div#header.bg{background-color: rgba(255, 255, 255, 0.7);}
+
+#event{width: 1332px; margin: 0 auto; text-align: center; font-family: "Javanese Text";}
+#event h3{padding-top: 150px; padding-bottom: 10px; font-size: 25px;}
+#event .menu li{float: left; font-family: 'NotoSerifKR'; color: #a1a1a1; font-size: 18px; padding: 0 10px 5px 10px;}
+#event .menu{display: inline-block;}
+#event ul li:hover a{font-weight: bold; color: #109ca7;}
+#event ul li.on{font-weight: bold; color: #109ca7; border-bottom: 1px solid #109ca7;}
+
+#search{width: 880px; height: 63px; margin: 50px auto 0; background-color: #d5f4f4; padding: 16px; box-sizing: border-box;}
+#choice{padding: 5px 10px; font-family: 'NanumSquare'; font-size: 15px; margin-right: 5px; border: #767676 solid 1px;}
+#s_box{padding: 5px 10px; font-family: 'NanumSquare'; font-size: 15px; margin-right: 5px; border: #767676 solid 1px;}
+#button{padding: 5px 20px; font-family: 'NanumSquare'; font-size: 15px; background-color: #69a6aa; 
+    border: #767676 solid 1px; color: white; cursor: pointer; }
+#button:hover{box-shadow: 3px 3px 3px rgba(0,0,0,0.2) inset; font-weight: bold;}
+
+#list4{width: 1332px; margin: 0 auto; padding: 100px 0 150px; font-family: 'NotoSerifKR';}
+#list4 p{color: #a1a1a1; font-size: 19px; padding-bottom: 80px; text-align: left;}
+#list ul li img{display: block;}
+#list li{float: left; width: 648px; height: 290px;}
+#list li:nth-child(1), #list li:nth-child(3){margin-right: 36px;}
+#list li:nth-child(1), #list li:nth-child(2){margin-bottom: 50px;}
+#bar{border-top: #6aa6aa31 1px solid;}
+ul.hover .e1:hover img{transform:translateY(-3px); box-shadow:5px 5px 10px rgba(0,0,0,0.3)}
+
+
+/*footer*/
+#footer{background-color: #6aa6aa; color: white; font-size: 14px; font-family: 'NanumSquareAcl';}
+#footer h4{font-size: 20px; padding-bottom: 5px; font-weight: 700;}
+#footer p{line-height: 18px;}
+#footer .f3 h4.bank{padding-top: 7px; font-size: 18px; padding-bottom: 2px;}
+#footer_inner .f3{text-align: right;}
+#footer_inner{width: 1332px; margin: 0 auto; padding: 30px 0; display: flex; justify-content: space-between;}
+.fin{text-align: center; padding-bottom: 10px;}
+.fin ul{display: flex; justify-content: center; border-top: #ffffff solid 1px; padding-top: 10px;}
+.fin ul li{padding: 0 5px;}
+.fin ul li:nth-child(2){font-weight: bold;}
+#footer a:hover{font-weight: bold;}

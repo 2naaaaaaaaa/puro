@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'NotoSerifKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+font
+font-family: 'NanumSquareLight';
+font-family: 'NanumSquare';
+font-family: 'NanumSquareBold';
+font-family: 'NanumSquareExtraBold';
+font-family: 'NanumSquareAcb';
+font-family: 'NanumSquareAceb';
+font-family: 'NanumSquareAcl';
+font-family: 'NanumSquareAcr';
+font-family: 'Noto Serif', serif;
+*/
+
+
+
+*{margin: 0; padding: 0;}
+ul, ol{list-style: none;}
+a{text-decoration: none; color: inherit;}
+body{font-family: 'NanumSquare'; color: black; font-size: 17px; line-height: 25px; min-width: 1400px; overflow-x: hidden;}
+html{overflow-x: hidden;}
+.clearfix::after{content: ""; clear: both; display: block;}
+
+#header{position: fixed; top: 0; left: 0; width: 100% ; background-color: rgba(255, 255, 255, 0.37); height: 85px; text-align: center; z-index: 9;}
+#header_inner{width: 1332px; margin: 0 auto; color: #6aa6aa; font-family: Javanese Text; font-size: 22px; position: relative;}
+#header_inner ul li{float: left;}
+.nav{width: 1200px; display: inline-block;}
+.nav li{ margin-top: 49px; width: 20%;}
+.nav li:nth-child(3){margin-top: 10px;}
+.top{position: absolute; top: 0; right: 0; margin-top: 10px;}
+.top li:nth-child(2){padding: 0 10px 0 10px}
+.banner{width: 100%;}
+#header_inner .nav>li:hover{color: #109ca7;}
+.solid{width:50%;
+    margin:auto;
+    margin-top:10px;
+    height:1px;
+    background:#109ca7;
+    visibility:hidden;
+    opacity:0;
+    transform:scaleX(0);
+    transition-property:opacity, transform;
+    transition-duration:0.5s;}
+#header_inner>.nav>li>a:hover .solid{transform:scaleX(1);
+                    opacity:1;
+                    visibility:visible;}	
+div#header.bg{background-color: rgba(255, 255, 255, 0.7);}
+
+#shop{width: 1332px; margin: 0 auto ; text-align: center; font-family: "Javanese Text"; padding-top: 150px;}
+#shop h3{padding-bottom: 15px; font-size: 25px;}
+#shop ul li{float: left; color: #a1a1a1; padding: 0 10px 0 10px; font-size: 19px;}
+#shop ul{display: inline-block;}
+#shop ul li:hover a{font-weight: bold; color: #109ca7;}
+#shop ul li.on{font-weight: bold; color: #109ca7; border-bottom:  1px solid #109ca7;}
+
+#bar{width: 1332px; margin: 50px auto 0; color: white; font-size: 15px;}
+#bar ul{background-color: #69a6aa; box-sizing: border-box; padding: 7px 30px; border-radius: 22.5px;}
+#bar ul li{float: left; padding-right: 8px;}
+#bar ul li.sum{padding-right: 780px;}
+.on{font-weight: bold; font-size: 16px;}
+
+/*list*/
+#list{width: 1332px; margin: 0 auto;}
+#list ul div.box{border: #badfdf 1px solid;}
+.title{color: #a1a1a1; font-size: 19px; font-family: "Javanese Text"; padding-top: 100px;}
+#list ul li{float: left; width: 321px; margin-right: 184.5px; margin-top: 80px;}
+#list ul li:nth-child(3){margin-right: 0;}
+#list ul span{color: #a1a1a1; text-decoration: line-through; font-size: 14px;}
+.p1{color: rgba(0, 0, 0, 0.89); font-family: 'NanumSquareExtraBold'; border-bottom: #badfdf 1px solid; padding-bottom: 5px; font-size: 20px; padding-top: 10px;}
+.p2{color: #707070; padding-top: 5px; font-family: 'NanumSquareBold';}
+.p3{color: rgba(0, 0, 0, 0.89); font-size: 20px; font-family: 'NanumSquareExtraBold';}
+#list ul li{position: relative; text-align: center;}
+.sale{position: absolute; top: 10px; left: 10px;}
+.new{position: absolute; top: -25px; left: 0;}
+/*호버*/
+#list ul li:hover div.box img{transform:scale(1.08,1.08);}
+#list ul li div.box img{transition:transform 0.8s;}
+#list ul li div.box {width: 321px; height: 321px; overflow: hidden;}
+
+
+#vegan{background-image: url(../img/3.shop/shop_slogan_bg.jpg); background-repeat: no-repeat; 
+    background-size: cover; height: 314px; box-sizing: border-box; background-position: center, center;
+    margin-top: 100px auto; text-align: center; font-weight: 900; line-height: 20px; padding: 55px 0 50px; margin-top: 150px;}
+#vegan img{display: inline-block;}
+#vegan h2, #vegan h1{font-size: 33px; font-family: 'NanumSquareExtraBold';}
+#vegan p{font-size: 23px; color: #046f44; padding-top: 20px; font-family: 'NanumSquareExtraBold';}
+
+/*footer*/
+#footer{background-color: #6aa6aa; color: white; font-size: 14px; font-family: 'NanumSquareAcl';}
+#footer h4{font-size: 20px; padding-bottom: 5px; font-weight: 700;}
+#footer p{line-height: 18px;}
+#footer .f3 h4.bank{padding-top: 7px; font-size: 18px; padding-bottom: 2px;}
+#footer_inner .f3{text-align: right;}
+#footer_inner{width: 1332px; margin: 0 auto; padding: 30px 0; display: flex; justify-content: space-between;}
+.fin{text-align: center; padding-bottom: 10px;}
+.fin ul{display: flex; justify-content: center; border-top: #ffffff solid 1px; padding-top: 10px;}
+.fin ul li{padding: 0 5px;}
+.fin ul li:nth-child(2){font-weight: bold;}
+#footer a:hover{font-weight: bold;}
+
+
+

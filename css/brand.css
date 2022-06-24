@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'NotoSerifKR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+font
+font-family: 'NanumSquareLight';
+font-family: 'NanumSquare';
+font-family: 'NanumSquareBold';
+font-family: 'NanumSquareExtraBold';
+font-family: 'NanumSquareAcb';
+font-family: 'NanumSquareAceb';
+font-family: 'NanumSquareAcl';
+font-family: 'NanumSquareAcr';
+font-family: 'Noto Serif', serif;
+*/
+
+*{margin: 0; padding: 0;}
+ul, ol{list-style: none;}
+a{text-decoration: none; color: inherit;}
+body{font-family: 'NanumSquare';; color: black; font-size: 17px; line-height: 25px; min-width: 1400px;}
+.clearfix::after{content: ""; clear: both; display: block;}
+
+#header{position: fixed; top: 0; left: 0; width: 100% ; background-color: rgba(255, 255, 255, 0.37); height: 85px; text-align: center; z-index: 9;}
+#header_inner{width: 1332px; margin: 0 auto; color: #ffffff; font-family: Javanese Text; font-size: 22px; position: relative;}
+#header_inner ul li{float: left;}
+.nav{width: 1200px; display: inline-block;}
+.nav li{ margin-top: 49px; width: 20%;}
+.nav li:nth-child(3){margin-top: 10px;}
+.top{position: absolute; top: 0; right: 0; margin-top: 10px;}
+.top li:nth-child(2){padding: 0 10px 0 10px}
+.banner{width: 100%;}
+#header_inner .nav>li:hover{color: #109ca7;}
+.solid{width:50%;
+    margin:auto;
+    margin-top:10px;
+    height:1px;
+    background:#109ca7;
+    visibility:hidden;
+    opacity:0;
+    transform:scaleX(0);
+    transition-property:opacity, transform;
+    transition-duration:0.5s;}
+#header_inner>.nav>li>a:hover .solid{transform:scaleX(1);
+                    opacity:1;
+                    visibility:visible;}	
+#header.bg #header_inner>.nav>li a{color:#6aa6aa;}
+div#header.bg{background-color: rgba(255, 255, 255, 0.7);}
+
+
+#brand_story{width: 1332px; margin: 150px auto; text-align: center;}
+#brand_story h3{font-family: "Javanese Text"; padding-bottom: 50px; font-size: 25px;}
+#brand_story img{display: inline; margin-bottom: 50px;}
+
+#brand_story ul{display: flex; justify-content: space-around; width: 1332px; padding-top: 30px;}
+#brand_story ul li{width: 142px; height: 139px;}
+.mark1{background-image: url(img/2.brand/mark1.png);}
+.mark2{background-image: url(img/2.brand/mark2.png);}
+.mark3{background-image: url(img/2.brand/mark3.png);}
+.mark4{background-image: url(img/2.brand/mark4.png);}
+.mark5{background-image: url(img/2.brand/mark5.png);}
+.mark1:hover{background-image: url(img/2.brand/mark1_h.png); transition: all 0.5s;}
+.mark2:hover{background-image: url(img/2.brand/mark2_h.png); transition: all 0.5s;}
+.mark3:hover{background-image: url(img/2.brand/mark3_h.png); transition: all 0.5s;}
+.mark4:hover{background-image: url(img/2.brand/mark4_h.png); transition: all 0.5s;}
+.mark5:hover{background-image: url(img/2.brand/mark5_h.png); transition: all 0.5s;}
+
+#list{width: 1091px; margin: 150px auto;}
+#list1, #list3{display: flex; justify-content: center; position: relative; margin-bottom: 150px;}
+.title{position: absolute; top: 180px; left: 475px; z-index: 2;}
+.title3{position: absolute; top: 180px; left: 478px; z-index: 2;}
+.img img{display: block;}
+.text{background-color: #007c86; margin-top: 330px; padding: 60px 50px 40px 50px;}
+.text3{background-color: #007c86; margin-top: 330px; padding: 60px 50px 40px 50px; width: 460px;}
+.t_w{color: #ffffff; font-size: 19px; padding-bottom: 20px;}
+.t_e{color: #98d2d2; font-size: 18px;}
+
+#list2{position: relative; width: 1041.41px; height: 600px; margin-bottom: 150px;}
+.img3 img{display:block; padding-left: 25px;}
+.title2{position: absolute; z-index: 9; top: 230px; left: 180px;}
+.text2{position: absolute; left: 25px; bottom: 0; background-color: #007c86; width: 500px; margin-top: 330px; 
+    text-align: right; padding: 60px 50px 40px 50px;}
+
+/*footer*/
+#footer{background-color: #6aa6aa; color: white; font-size: 14px; font-family: 'NanumSquareAcl';}
+#footer h4{font-size: 20px; padding-bottom: 5px; font-weight: 700;}
+#footer p{line-height: 18px;}
+#footer .f3 h4.bank{padding-top: 7px; font-size: 18px; padding-bottom: 2px;}
+#footer_inner .f3{text-align: right;}
+#footer_inner{width: 1332px; margin: 0 auto; padding: 30px 0; display: flex; justify-content: space-between;}
+.fin{text-align: center; padding-bottom: 10px;}
+.fin ul{display: flex; justify-content: center; border-top: #ffffff solid 1px; padding-top: 10px;}
+.fin ul li{padding: 0 5px;}
+.fin ul li:nth-child(2){font-weight: bold;}
+#footer a:hover{font-weight: bold;}
+
