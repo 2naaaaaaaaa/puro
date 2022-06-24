@@ -57,16 +57,16 @@ div#header.bg{background-color: rgba(255, 255, 255, 0.7);}
 
 #brand_story ul{display: flex; justify-content: space-around; width: 1332px; padding-top: 30px;}
 #brand_story ul li{width: 142px; height: 139px;}
-.mark1{background-image: url(img/2.brand/mark1.png);}
-.mark2{background-image: url(img/2.brand/mark2.png);}
-.mark3{background-image: url(img/2.brand/mark3.png);}
-.mark4{background-image: url(img/2.brand/mark4.png);}
-.mark5{background-image: url(img/2.brand/mark5.png);}
-.mark1:hover{background-image: url(img/2.brand/mark1_h.png); transition: all 0.5s;}
-.mark2:hover{background-image: url(img/2.brand/mark2_h.png); transition: all 0.5s;}
-.mark3:hover{background-image: url(img/2.brand/mark3_h.png); transition: all 0.5s;}
-.mark4:hover{background-image: url(img/2.brand/mark4_h.png); transition: all 0.5s;}
-.mark5:hover{background-image: url(img/2.brand/mark5_h.png); transition: all 0.5s;}
+.mark1{background-image: url(../img/2.brand/mark1.png);}
+.mark2{background-image: url(../img/2.brand/mark2.png);}
+.mark3{background-image: url(../img/2.brand/mark3.png);}
+.mark4{background-image: url(../img/2.brand/mark4.png);}
+.mark5{background-image: url(../img/2.brand/mark5.png);}
+.mark1:hover{background-image: url(../img/2.brand/mark1_h.png); transition: all 0.5s;}
+.mark2:hover{background-image: url(../img/2.brand/mark2_h.png); transition: all 0.5s;}
+.mark3:hover{background-image: url(../img/2.brand/mark3_h.png); transition: all 0.5s;}
+.mark4:hover{background-image: url(../img/2.brand/mark4_h.png); transition: all 0.5s;}
+.mark5:hover{background-image: url(../img/2.brand/mark5_h.png); transition: all 0.5s;}
 
 #list{width: 1091px; margin: 150px auto;}
 #list1, #list3{display: flex; justify-content: center; position: relative; margin-bottom: 150px;}
