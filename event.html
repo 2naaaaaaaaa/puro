@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1400">
+    <title>Puro</title>
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/event.js"></script>
+    <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="banner">
+        <img class="banner" src="img/4.event/event_banner.jpg" alt="event_banner">
+        <div id="header">
+            <div id="header_inner">
+                <ul class="top clearfix">
+                    <li><a href="#none"><img src="img/icon_my_pagae.png" alt="마이페이지"></a></li>
+                    <li><a href="#none"><img src="img/icon_shopping_bag.png" alt="장바구니"></a></li>
+                    <li><a href="#none"><img src="img/icon_search.png" alt="검색"></a></li>
+                </ul><!--top-->
+                <ul class="nav clearfix">
+                    <li><a href="brand.html">Brand<div class="solid"></div></a></li>
+                    <li><a href="shop.html">Shop<div class="solid"></div></a></li>
+                    <li><a href="index.html"><img src="img/logo.png" alt="logo"></a></li>
+                    <li><a href="event.html">Event<div class="solid"></div></a></li>
+                    <li><a href="Community.html">Community<div class="solid"></div></a></li>
+                </ul><!--nav-->
+            </div><!--header_inner-->
+        </div><!--header-->
+    </div><!--banner-->
+    <div id="event">
+        <h3>Event</h3>
+        <ul class="menu clearfix">
+            <li class="on"><a href="#event">진행중 이벤트</a></li>
+            <li>|</li>
+            <li><a href="#bar">종료된 이벤트</a></li>
+        </ul><!--menu-->
+        <div id="search">
+            <select name="choice" id="choice">
+                <option value="title">제목</option>
+                <option value="contents">내용</option>
+            </select>
+            <input type="search" id="s_box">
+            <input type="button" value="검색" id="button">
+        </div><!--search-->
+    </div><!--event-->
+    <div id="list4">
+        <p>진행중 이벤트</p>
+        <ul id="list" class="clearfix hover">
+            <li><a href="#none" class="e1"><img src="img/4.event/event1.jpg" alt="event1"></a></li>
+            <li><a href="#none" class="e1"><img src="img/4.event/event2.jpg" alt="event2"></a></li>
+            <li><a href="#none" class="e1"><img src="img/4.event/evnet3.jpg" alt="event3"></a></li>
+            <li><a href="#none" class="e1"><img src="img/4.event/evnet4.jpg" alt="event4"></a></li>
+        </ul>
+    </div>
+    <div id="bar">
+        <div id="list4">
+            <p>종료된 이벤트</p>
+            <ul id="list" class="clearfix">
+                <li><img src="img/4.event/evnet5.jpg" alt="event5"></li>
+                <li><img src="img/4.event/evnet6.jpg" alt="event6"></li>
+                <li><img src="img/4.event/evnet7.jpg" alt="event7"></li>
+                <li><img src="img/4.event/evnet8.jpg" alt="event8"></li>
+            </ul>
+        </div><!--list4-->
+    </div><!--bar-->
+    <div id="footer">
+        <div id="footer_inner">
+            <div class="f1">
+                <h4><a href="index.html">PURO(퓨로)</a></h4>
+                    <p>CEO : 이준영<br>
+                    ADDRESS : 서울특별시 강동구 암사길 86-5<br>
+                    BUSINESS LICENCE : 15 - 0413 - 210909<br>
+                    <a href="#none">TEL : 02 - 4852 - 0131</a><br>
+                    <a href="#none">FAX : 02 - 4852 - 0132</a><br>
+                    <a href="#none">E-mail :  joon0@mail.com</a></p>
+            </div>
+            <div class="f2">
+                <img src="img/footer_logo.png" alt="footer_logo">
+            </div>
+            <div class="f3">
+                <h4><a href="#none">고객센터 1588-0099</a></h4>
+                    <p>운영시간 10:00 -17:00<br>
+                    (점심시간 12:00 - 13:00)
+                    토,일요일 및 공휴일 휴무</p>
+                <h4 class="bank">무통장입금계좌</h4>
+                    <p>예금주: (주)퓨로<br>
+                        신한은행 11-123-456789</p>
+            </div>
+        </div><!--footer_inner-->
+        <div class="fin">
+            <ul>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보보호정책</a></li>
+                <li><a href="#">이용안내</a></li>
+            </ul>
+            <p>COPYRIGHT© 2022 PURO. ALL RIGHT RESERVED.</p>
+        </div>
+    </div><!--footer-->
+</body>
