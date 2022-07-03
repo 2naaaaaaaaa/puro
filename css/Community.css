@@ -110,6 +110,16 @@ div#header.bg{background-color: rgba(255, 255, 255, 0.7);}
 .text_box{padding: 30px 50px; display: flex;}
 .text_box p{padding-left: 50px; line-height: 35px;}
 
+.list li{float: left; font-weight: bold; color: #109ca7; font-size: 18px; padding: 50px 0 50px 50px;}
+.list li:nth-child(2)>ul>li{float:none; padding: 0; padding-bottom: 10px; width: 685px;}
+.list li:nth-child(3){padding-left: 80px;}
+p{color: black; font-size: 17px; line-height: 25px; font-weight: normal;}
+.list{border-bottom: #109ca7 1px solid;}
+#re_box{border-top: #109ca7 2px solid; border-top: #109ca7 2px solid;}
+
+
+
+
 #page{width: 1000px; margin: 50px auto; text-align: center;}
 #page ul{display: inline-block;}
 #page ul li{float: left; width: 30px; color: rgba(0, 0, 0, 0.712);}
