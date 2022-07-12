@@ -324,23 +324,35 @@
 		});
 
 	</script>
-    <!--
-    		<script>
-                $(function() {
-                    $('a[href*="#"]:not([href="#"])').click(function() {
-                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-                    var target = $(this.hash);
-                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                    if (target.length) {
-                    $('html, body').animate({
-                    scrollTop: target.offset().top
-                    }, 500);//움직이는 시간 조정
-                    return false;
-                    }
-                    }
+   
+    		
+
+            <script>
+                $(function () {
+                    
+
+
+                    $('a[href*="#"]:not([href="#"])').click(function () {
+                        var active = $(this).attr("href");
+                        if(active!="#tab1" && active != "#tab2" && active!="#tab3" && active != "#tab4"){
+                         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                            var target = $(this.hash);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                            if (target.length) {
+                                $('html, body').animate({
+                                    scrollTop: target.offset().top
+                                }, 500);//움직이는 시간 조정
+                                return false;
+                            }
+                        }   
+                        }
+
+                        
                     });
-                    });
+
+                });
+
             </script>
-            -->
+           
 </body>
 </html>
