@@ -87,7 +87,6 @@ div#header.bg{background-color: rgba(255, 255, 255, 0.7);}
 #best{width: 1332px; margin: 150px auto; text-align: center;}
 #best .shop{border: #badfdf 1px solid; box-sizing: border-box;}
 #best ul li{float: left; margin-right: 184.5px; margin-top: 80px;}
-#best ul li div.shop img{width: 100%;}
 #best ul li:nth-child(6), #best ul li:nth-child(3){margin-right: 0;}
 #best ul span{color: #a1a1a1; text-decoration: line-through; font-size: 14px;}
 .p1{color: rgba(0, 0, 0, 0.89); font-family: 'NanumSquareExtraBold'; border-bottom: #badfdf 1px solid; padding-bottom: 5px; font-size: 20px; padding-top: 10px;}
@@ -153,3 +152,10 @@ div#header.bg{background-color: rgba(255, 255, 255, 0.7);}
 .fin ul li{padding: 0 5px;}
 .fin ul li:nth-child(2){font-weight: bold;}
 #footer a:hover{font-weight: bold;}
+
+.fixed_box{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:52px;
+}
